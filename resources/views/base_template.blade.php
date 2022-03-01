@@ -67,9 +67,8 @@
         <section class="py-5" id="features">
             <div class="container-lg">
                 <div class="row align-items-center">
-                    <div class="col-md-5 col-lg-6 order-md-0 text-center text-md-start"><img class="img-fluid" src="assets/img/illustrations/feature-bg.png" width="550" alt="" /></div>
                     <div class="col-md-7 col-lg-6 px-sm-5 px-md-0">
-                        <h6 class="fw-bold fs-4 display-3 lh-sm">Awesome apps <br />features</h6>
+                        <h6 class="fw-bold fs-4 display-3 lh-sm">Donner son <br />sang</h6>
                         <p class="my-4">Increase productivity with a simple to-do app. app for <br class="d-none d-xl-block" />managing your personal budgets.</p>
                         <div class="d-flex align-items-center mb-5">
                             <div><img class="img-fluid" src="assets/img/illustrations/fast-performance.png" width="90" alt="" /></div>
@@ -93,6 +92,7 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-5 col-lg-6 order-md-0 text-center text-md-start"><img class="img-fluid" src="assets/img/illustrations/feature-bg.png" width="550" alt="" /></div>
                 </div>
             </div>
         </section>
@@ -343,7 +343,8 @@
         <section class="py-8" id="testimonial">
             <div class="container-lg">
                 <div class="row flex-center">
-                    <div class="col-sm-10 col-md-5 col-lg-5 order-md-0 text-center text-md-start"><img class="img-fluid mb-4" src="assets/img/illustrations/testimonial.png" alt="" /></div>
+                    <h6 class="fw-bold fs-4 display-3 lh-sm mb-3" style="text-align: center">Lieux ou donner son sang</h6>
+                    <iframe src="https://arcg.is/y5qze" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                     <div class="col-sm-10 col-md-6 col-lg-6 text-center text-md-start offset-md-1">
                         <h6 class="fw-bold fs-4 display-3 lh-sm"> Meet Client Satisfaction <br />by using product</h6>
                         <p class="my-4 pe-xl-5"> The rise of mobile devices transforms the way we consume.Elevant channels such as Facebook.</p>
@@ -458,8 +459,8 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-8 col-lg-6 text-center mb-3">
-                        <h6 class="fw-bold fs-4 display-3 lh-sm mb-3">Frequently asked questions</h6>
-                        <p class="mb-5">The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p>
+                        <h6 class="fw-bold fs-4 display-3 lh-sm mb-3">Foire aux questions</h6>
+                        <p class="mb-5">Petit tour d’horizon des questions pratiques les plus fréquentes.</p>
                     </div>
                 </div>
                 <div class="row flex-center">
@@ -467,42 +468,45 @@
                         <div class="accordion" id="accordionExample">
                             <div class="accordion-item mb-2">
                                 <h2 class="accordion-header" id="heading1">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1"><span class="mb-0 fw-bold text-start fs-1 text-1000">How to contact with riders emergency?</span></button>
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1"><span class="mb-0 fw-bold text-start fs-1 text-1000">Quelles conditions dois-je respecter pour donner mon sang ?</span></button>
                                 </h2>
                                 <div class="accordion-collapse collapse show" id="collapse1" aria-labelledby="heading1" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body bg-100">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</div>
+                                    <div class="accordion-body bg-100">Toute personne en bonne santé âgée, de 18 à 70 ans et pesant au moins 50 kilos, peut donner son sang. Néanmoins, il existe des contre-indications qui, pour la plupart, sont temporaires. Leur but : garantir la sécurité du donneur comme du receveur.</div>
                                 </div>
                             </div>
                             <div class="accordion-item mb-2">
                                 <h2 class="accordion-header" id="heading2">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2"><span class="mb-0 fw-bold text-start fs-1 text-1000">App installation failed, how to update system information?</span></button>
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2"><span class="mb-0 fw-bold text-start fs-1 text-1000">Le don de sang va-t-il me fatiguer ?</span></button>
                                 </h2>
                                 <div class="accordion-collapse collapse" id="collapse2" aria-labelledby="heading2" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body bg-100">You can issue either partial or full refunds. There are no fees to refund a charge, but the fees from the original charge are not returned.</div>
+                                    <div class="accordion-body bg-100">Chez une personne en bonne santé, le don n’entraîne la plupart du temps aucun effet secondaire. L'organisme reconstitue rapidement le volume sanguin prélevé.
+                                        Il est néanmoins conseillé de ne pas pratiquer d’activités fatigantes ou à risques (conduite prolongée, marche ou station debout prolongée, sports…) dans les heures qui suivent le don. Il est également très important de boire beaucoup (eau ou jus).</div>
                                 </div>
                             </div>
                             <div class="accordion-item mb-2">
                                 <h2 class="accordion-header" id="heading3">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3"><span class="mb-0 fw-bold text-start fs-1 text-1000">Website reponse taking time, how to improve?</span></button>
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3"><span class="mb-0 fw-bold text-start fs-1 text-1000">Combien de temps dure un don de sang ?</span></button>
                                 </h2>
                                 <div class="accordion-collapse collapse" id="collapse3" aria-labelledby="heading3" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body bg-100">Disputed payments (also known as chargebacks) incur a $15.00 fee. If the customer’s bank resolves the dispute in your favor, the fee is fully refunded.</div>
+                                    <div class="accordion-body bg-100">Le prélèvement en lui-même ne dure que 8 à 10 minutes. Si l'on ajoute à cela le temps nécessaire à l'entretien préalable avec l’infirmier(e) ou le médecin, ainsi que le repos suivant le prélèvement, un don de sang prend environ 45 minutes.</div>
                                 </div>
                             </div>
                             <div class="accordion-item mb-2">
                                 <h2 class="accordion-header" id="heading4">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4"><span class="mb-0 fw-bold text-start fs-1 text-1000">New update fixed all bug and issues</span></button>
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4"><span class="mb-0 fw-bold text-start fs-1 text-1000">Est-ce que donner son sang fait mal ?</span></button>
                                 </h2>
                                 <div class="accordion-collapse collapse" id="collapse4" aria-labelledby="heading4" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body bg-100">There are no additional fees for using our mobile SDKs or to accept payments using consumer wallets like Apple Pay or Google Pay.</div>
+                                    <div class="accordion-body bg-100">Personne n’aime les piqûres mais le don de sang ne fait pas plus mal qu’une prise de sang réalisée en laboratoire. Le prélèvement est réalisé par un personnel qualifié, spécialement formé et qui veille à votre bien-être.
+                                    </div>
                                 </div>
                             </div>
                             <div class="accordion-item mb-2">
                                 <h2 class="accordion-header" id="heading5">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5"><span class="mb-0 fw-bold text-start fs-1 text-1000">How to contact with riders emergency?</span></button>
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5"><span class="mb-0 fw-bold text-start fs-1 text-1000">Quels documents dois-je apporter pour effectuer un don de sang ?</span></button>
                                 </h2>
                                 <div class="accordion-collapse collapse" id="collapse5" aria-labelledby="heading5" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body bg-100">There are no additional fees for using our mobile SDKs or to accept payments using consumer wallets like Apple Pay or Google Pay.</div>
+                                    <div class="accordion-body bg-100">La législation impose la présentation systématique d’une pièce d’identité pour chaque personne se présentant sur une collecte pour donner son sang. Le carnet de santé est facultatif.
+                                        Pour les donneurs réguliers, la carte de donneur est acceptée, ainsi qu’une carte de transport ou une carte vitale.</div>
                                 </div>
                             </div>
                         </div>
@@ -514,21 +518,6 @@
         </section>
         <!-- <section> close ============================-->
         <!-- ============================================-->
-
-
-        <section class="py-6">
-            <hr />
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-5 col-lg-7 order-md-1 text-center text-md-start z-index-2 cta-image"><img class="img-fluid mb-4 mb-md-0" src="assets/img/illustrations/cta.png" width="850" alt="" /></div>
-                    <div class="col-md-7 col-lg-5 text-center text-md-start">
-                        <h1 class="display-3 fw-bold lh-sm">Download our App now</h1>
-                        <p class="my-4"> The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p>
-                        <div class="d-flex justify-content-center d-md-inline-block"><a class="pe-2 pe-sm-3 pe-md-4" href="!#"><img src="assets/img/illustrations/google-play.png" width="160" alt="" /></a><a href="!#"><img src="assets/img/illustrations/app-store.png" width="160" alt="" /></a></div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
 
         <!-- ============================================-->
