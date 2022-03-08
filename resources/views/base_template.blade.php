@@ -37,33 +37,6 @@
                 </div>
             </div>
         </section>
-
-
-        <!-- ============================================-->
-        <!-- <section> begin ============================-->
-        <section class="py-7">
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 mx-auto align-items-center text-center">
-                        <p class="mb-4">Trusted by companies like</p>
-                    </div>
-                </div>
-                <div class="row align-items-center justify-content-center justify-content-lg-around">
-                    <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center"><img src="assets/img/gallery/company-1.png" alt="" /></div>
-                    <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center"><img src="assets/img/gallery/company-2.png" alt="" /></div>
-                    <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center"><img src="assets/img/gallery/company-3.png" alt="" /></div>
-                    <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center"><img src="assets/img/gallery/company-4.png" alt="" /></div>
-                    <div class="col-6 col-sm-4 col-md-4 col-lg-2 px-md-0 mb-5 mb-lg-0 text-center"><img src="assets/img/gallery/company-1.png" alt="" /></div>
-                </div>
-            </div>
-            <!-- end of .container-->
-
-        </section>
-        <!-- <section> close ============================-->
-        <!-- ============================================-->
-
-
         <section class="py-5" id="features">
             <div class="container-lg">
                 <div class="row align-items-center">
@@ -96,7 +69,139 @@
                 </div>
             </div>
         </section>
+        <section class="py-5" id="features">
+            <div class="container-lg">
+                <div class="row align-items-center">
+                    <div class="col-md-5 col-lg-6 order-md-0 text-center text-md-start"><img class="img-fluid" src="assets/img/illustrations/feature-bg.png" width="550" alt="" /></div>
+                    <div class="col-md-7 col-lg-6 px-sm-5 px-md-0">
+                        <h6 class="fw-bold fs-4 display-3 lh-sm">Donner sa <br />moelle osseuse</h6>
+                        <p class="my-4">Increase productivity with a simple to-do app. app for <br class="d-none d-xl-block" />managing your personal budgets.</p>
+                        <div class="d-flex align-items-center mb-5">
+                            <div><img class="img-fluid" src="assets/img/illustrations/fast-performance.png" width="90" alt="" /></div>
+                            <div class="px-4">
+                                <h5 class="fw-bold text-danger">Fast performance</h5>
+                                <p>Get your blood tests delivered at <br class="d-none d-xl-block"> home collect a sample from the <br class="d-none d-xl-block"> news your blood tests</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-5">
+                            <div><img class="img-fluid" src="assets/img/illustrations/prototype.png" width="90" alt="" /></div>
+                            <div class="px-4">
+                                <h5 class="fw-bold text-primary">Prototyping</h5>
+                                <p>Get your blood tests delivered at <br class="d-none d-xl-block"> home collect a sample from the <br class="d-none d-xl-block"> news your blood tests</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-5">
+                            <div><img class="img-fluid" src="assets/img/illustrations/vector.png" width="90" alt="" /></div>
+                            <div class="px-4">
+                                <h5 class="fw-bold text-success">Vector Editing</h5>
+                                <p>Get your blood tests delivered at <br class="d-none d-xl-block"> home collect a sample from the <br class="d-none d-xl-block"> news your blood tests</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="row flex-center">
+            <div class="col-lg-4">
+                <div class="card shadow-lg mb-4">
+                    <div class="card-header border-bottom-0 pt-7 pb-5">
+                        <div class="d-flex justify-content-center">
+                        </div>
+                        <h4 class="fw-bold text-center">Don du sang</h4><span class="text-700 text-center d-block">p</span>
+                    </div>
+                    <div class="card-body mx-auto">
+                        <ul class="list-unstyled mb-4">
+                            <li class="text-700 py-2 text-secondary" style="text-align: center">Darg &amp; Drop Builder</li>
+                            <li class="text-700 py-2 text-secondary" style="text-align: center">1,000's of Templates</li>
+                            <li class="text-700 py-2 text-secondary" style="text-align: center">Blog Support Tools</li>
+                            <li class="text-700 py-2 text-secondary"style="text-align: center">eCommerce Store </li>
+                        </ul>
+                        <div class="d-flex flex-column"> <a class="btn btn-lg btn-primary rounded-pill mb-3" href="#">Prendre Rendez-vous</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card shadow-lg mb-4">
+                    <div class="card-header border-bottom-0 pt-7 pb-5">
+                        <div class="d-flex justify-content-center"></div>
+                        <h4 class="fw-bold text-center">Don de la moelle osseuse</h4><span class="text-700 text-center d-block">p</span>
+                    </div>
+                    <div class="card-body mx-auto">
+                        <ul class="list-unstyled mb-4">
+                            <li class="text-700 py-2 text-secondary"style="text-align: center">Darg &amp; Drop Builder</li>
+                            <li class="text-700 py-2 text-secondary"style="text-align: center">1,000's of Templates</li>
+                            <li class="text-700 py-2 text-secondary"style="text-align: center">Blog Support Tools</li>
+                            <li class="text-700 py-2 text-secondary"style="text-align: center">eCommerce Store </li>
+                        </ul>
+                        <div class="d-flex flex-column"> <a class="btn btn-lg btn-primary rounded-pill mb-3" href="#">Prendre rendez-vous</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <iframe src="https://arcg.is/y5qze" width="1000" height="450" style="border:0" allowfullscreen></iframe>
 
+        <section class="py-8" id="faq">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-lg-6 text-center mb-3">
+                        <h6 class="fw-bold fs-4 display-3 lh-sm mb-3">Foire aux questions</h6>
+                        <p class="mb-5">Petit tour d’horizon des questions pratiques les plus fréquentes.</p>
+                    </div>
+                </div>
+                <div class="row flex-center">
+                    <div class="col-lg-9">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item mb-2">
+                                <h2 class="accordion-header" id="heading1">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1"><span class="mb-0 fw-bold text-start fs-1 text-1000">Quelles conditions dois-je respecter pour donner mon sang ?</span></button>
+                                </h2>
+                                <div class="accordion-collapse collapse show" id="collapse1" aria-labelledby="heading1" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body bg-100">Toute personne en bonne santé âgée, de 18 à 70 ans et pesant au moins 50 kilos, peut donner son sang. Néanmoins, il existe des contre-indications qui, pour la plupart, sont temporaires. Leur but : garantir la sécurité du donneur comme du receveur.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-2">
+                                <h2 class="accordion-header" id="heading2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2"><span class="mb-0 fw-bold text-start fs-1 text-1000">Le don de sang va-t-il me fatiguer ?</span></button>
+                                </h2>
+                                <div class="accordion-collapse collapse" id="collapse2" aria-labelledby="heading2" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body bg-100">Chez une personne en bonne santé, le don n’entraîne la plupart du temps aucun effet secondaire. L'organisme reconstitue rapidement le volume sanguin prélevé.
+                                        Il est néanmoins conseillé de ne pas pratiquer d’activités fatigantes ou à risques (conduite prolongée, marche ou station debout prolongée, sports…) dans les heures qui suivent le don. Il est également très important de boire beaucoup (eau ou jus).</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-2">
+                                <h2 class="accordion-header" id="heading3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3"><span class="mb-0 fw-bold text-start fs-1 text-1000">Combien de temps dure un don de sang ?</span></button>
+                                </h2>
+                                <div class="accordion-collapse collapse" id="collapse3" aria-labelledby="heading3" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body bg-100">Le prélèvement en lui-même ne dure que 8 à 10 minutes. Si l'on ajoute à cela le temps nécessaire à l'entretien préalable avec l’infirmier(e) ou le médecin, ainsi que le repos suivant le prélèvement, un don de sang prend environ 45 minutes.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-2">
+                                <h2 class="accordion-header" id="heading4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4"><span class="mb-0 fw-bold text-start fs-1 text-1000">Est-ce que donner son sang fait mal ?</span></button>
+                                </h2>
+                                <div class="accordion-collapse collapse" id="collapse4" aria-labelledby="heading4" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body bg-100">Personne n’aime les piqûres mais le don de sang ne fait pas plus mal qu’une prise de sang réalisée en laboratoire. Le prélèvement est réalisé par un personnel qualifié, spécialement formé et qui veille à votre bien-être.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-2">
+                                <h2 class="accordion-header" id="heading5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5"><span class="mb-0 fw-bold text-start fs-1 text-1000">Quels documents dois-je apporter pour effectuer un don de sang ?</span></button>
+                                </h2>
+                                <div class="accordion-collapse collapse" id="collapse5" aria-labelledby="heading5" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body bg-100">La législation impose la présentation systématique d’une pièce d’identité pour chaque personne se présentant sur une collecte pour donner son sang. Le carnet de santé est facultatif.
+                                        Pour les donneurs réguliers, la carte de donneur est acceptée, ainsi qu’une carte de transport ou une carte vitale.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of .container-->
+
+        </section>
 
         <!-- ============================================-->
         <!-- <section> begin ============================-->
@@ -132,36 +237,6 @@
             <!-- end of .container-->
 
         </section>
-        <!-- <section> close ============================-->
-        <!-- ============================================-->
-
-
-
-
-        <!-- ============================================-->
-        <!-- <section> begin ============================-->
-        <section class="py-6">
-
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-5 order-md-0 text-center text-md-start"><img class="img-fluid mb-4" src="assets/img/illustrations/call-to-action.png" width="550" alt="" /></div>
-                    <div class="col-md-6 text-center text-md-start offset-md-1">
-                        <h6 class="fw-bold fs-4 display-3 lh-sm">Designed &amp; built by<br />the latest code <br />integration</h6>
-                        <p class="my-4 pe-xl-5"> The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p><a class="btn btn-lg btn-primary rounded-pill hover-top" href="#" role="button">Learn more</a>
-                    </div>
-                </div>
-            </div>
-            <!-- end of .container-->
-
-        </section>
-        <!-- <section> close ============================-->
-        <!-- ============================================-->
-
-
-
-
-        <!-- ============================================-->
-        <!-- <section> begin ============================-->
         <section class="py-6">
 
             <div class="container">
@@ -284,244 +359,10 @@
                         <p class="mb-4">The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p>
                     </div>
                 </div>
-                <div class="row flex-center">
-                    <div class="col-12 mb-3">
-                        <div class="d-flex justify-content-center">
-                            <label class="form-check-label me-2" for="customSwitch1">Monthly</label>
-                            <div class="form-check form-switch">
-                                <input class="form-check-input" id="customSwitch1" type="checkbox" checked="checked" />
-                                <label class="form-check-label align-top" for="customSwitch1">Yearly</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card shadow-lg mb-4 border-0">
-                            <div class="card-header border-bottom-0 pt-7 pb-5">
-                                <div class="d-flex justify-content-center">
-                                    <h1 class="fw-bold">$0</h1><span class="d-flex align-items-center">/month</span>
-                                </div>
-                                <h5 class="fw-bold text-center">Business Class</h5><span class="text-700 text-center d-block">For small teams or office</span>
-                            </div>
-                            <div class="card-body mx-auto">
-                                <ul class="list-unstyled mb-4">
-                                    <li class="text-700 py-2 text-secondary">Darg &amp; Drop Builder</li>
-                                    <li class="text-700 py-2 text-secondary">1,000's of Templates</li>
-                                    <li class="text-700 py-2 text-secondary">Blog Support Tools</li>
-                                    <li class="text-700 py-2 text-secondary">eCommerce Store </li>
-                                </ul><a class="btn btn-lg btn-primary rounded-pill mb-3" href="#">Start free trial</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card shadow-lg mb-4">
-                            <div class="card-header border-bottom-0 pt-7 pb-5">
-                                <div class="d-flex justify-content-center">
-                                    <h1 class="fw-bold">$99</h1><span class="d-flex align-items-center">/month</span>
-                                </div>
-                                <h5 class="fw-bold text-center">Pro Master</h5><span class="text-700 text-center d-block">For small teams or office</span>
-                            </div>
-                            <div class="card-body mx-auto">
-                                <ul class="list-unstyled mb-4">
-                                    <li class="text-700 py-2 text-secondary">Darg &amp; Drop Builder</li>
-                                    <li class="text-700 py-2 text-secondary">1,000's of Templates</li>
-                                    <li class="text-700 py-2 text-secondary">Blog Support Tools</li>
-                                    <li class="text-700 py-2 text-secondary">eCommerce Store </li>
-                                </ul>
-                                <div class="d-flex flex-column"> <a class="btn btn-lg btn-primary rounded-pill mb-3" href="#">Start free trial</a><a href="#">Or Start 14 days trail</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
             <!-- end of .container-->
 
         </section>
-        <!-- <section> close ============================-->
-        <!-- ============================================-->
-
-
-        <section class="py-8" id="testimonial">
-            <div class="container-lg">
-                <div class="row flex-center">
-                    <h6 class="fw-bold fs-4 display-3 lh-sm mb-3" style="text-align: center">Lieux ou donner son sang</h6>
-                    <iframe src="https://arcg.is/y5qze" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    <div class="col-sm-10 col-md-6 col-lg-6 text-center text-md-start offset-md-1">
-                        <h6 class="fw-bold fs-4 display-3 lh-sm"> Meet Client Satisfaction <br />by using product</h6>
-                        <p class="my-4 pe-xl-5"> The rise of mobile devices transforms the way we consume.Elevant channels such as Facebook.</p>
-                        <div class="carousel slide" id="carouselExampleDark" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active" data-bs-interval="10000">
-                                    <div class="row h-100">
-                                        <div class="col-12">
-                                            <svg class="bi bi-star-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFCC00" viewBox="0 0 16 16">
-                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-                                            </svg>
-                                            <svg class="bi bi-star-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFCC00" viewBox="0 0 16 16">
-                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-                                            </svg>
-                                            <svg class="bi bi-star-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFCC00" viewBox="0 0 16 16">
-                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-                                            </svg>
-                                            <svg class="bi bi-star-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFCC00" viewBox="0 0 16 16">
-                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-                                            </svg>
-                                            <svg class="bi bi-star-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFCC00" viewBox="0 0 16 16">
-                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-                                            </svg>
-                                            <h5 class="my-4 fw-bold lh-sm">User friendly &amp; Customizable</h5>
-                                            <p class="mb-0 text-center text-md-start">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-                                        </div>
-                                        <div class="col-xl-6 pt-4 d-flex d-sm-block flex-center">
-                                            <div class="d-flex align-items-md-center"><img class="img-fluid me-4 me-md-3 me-lg-4" src="assets/img/gallery/user.png" width="100" alt="" />
-                                                <div class="w-lg-50 my-3">
-                                                    <h5 class="mb-0 fw-bold">Zoltan Nemeth</h5>
-                                                    <p class="fw-normal mb-0">CEO of Pixer Lab</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item" data-bs-interval="2000">
-                                    <div class="row h-100">
-                                        <div class="col-12">
-                                            <svg class="bi bi-star-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFCC00" viewBox="0 0 16 16">
-                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-                                            </svg>
-                                            <svg class="bi bi-star-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFCC00" viewBox="0 0 16 16">
-                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-                                            </svg>
-                                            <svg class="bi bi-star-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFCC00" viewBox="0 0 16 16">
-                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-                                            </svg>
-                                            <svg class="bi bi-star-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFCC00" viewBox="0 0 16 16">
-                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-                                            </svg>
-                                            <svg class="bi bi-star-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFCC00" viewBox="0 0 16 16">
-                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-                                            </svg>
-                                            <h5 class="my-4 fw-bold lh-sm">User friendly &amp; Customizable</h5>
-                                            <p class="mb-0 text-center text-md-start">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-                                        </div>
-                                        <div class="col-xl-6 pt-4 d-flex d-sm-block flex-center">
-                                            <div class="d-flex align-items-md-center"><img class="img-fluid me-4 me-md-3 me-lg-4" src="assets/img/gallery/user-1.png" width="100" alt="" />
-                                                <div class="w-lg-50 my-3">
-                                                    <h5 class="mb-0 fw-bold">Jhon Doe</h5>
-                                                    <p class="fw-normal mb-0">Web Developer</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row h-100">
-                                        <div class="col-12">
-                                            <svg class="bi bi-star-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFCC00" viewBox="0 0 16 16">
-                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-                                            </svg>
-                                            <svg class="bi bi-star-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFCC00" viewBox="0 0 16 16">
-                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-                                            </svg>
-                                            <svg class="bi bi-star-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFCC00" viewBox="0 0 16 16">
-                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-                                            </svg>
-                                            <svg class="bi bi-star-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFCC00" viewBox="0 0 16 16">
-                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-                                            </svg>
-                                            <svg class="bi bi-star-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FFCC00" viewBox="0 0 16 16">
-                                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
-                                            </svg>
-                                            <h5 class="my-4 fw-bold lh-sm">User friendly &amp; Customizable</h5>
-                                            <p class="mb-0 text-center text-md-start">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-                                        </div>
-                                        <div class="col-xl-6 pt-4 d-flex d-sm-block flex-center">
-                                            <div class="d-flex align-items-md-center"><img class="img-fluid me-4 me-md-3 me-lg-4" src="assets/img/gallery/user-2.png" width="100" alt="" />
-                                                <div class="w-lg-50 my-3">
-                                                    <h5 class="mb-0 fw-bold">Viezh Robert</h5>
-                                                    <p class="fw-normal mb-0">UI/UX Designer</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="position-relative mt-sm-n5"><a class="carousel-control-prev carousel-icon z-index-2" href="#carouselExampleDark" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next carousel-icon z-index-2" href="#carouselExampleDark" role="button" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- ============================================-->
-        <!-- <section> begin ============================-->
-        <section class="py-8" id="faq">
-
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-8 col-lg-6 text-center mb-3">
-                        <h6 class="fw-bold fs-4 display-3 lh-sm mb-3">Foire aux questions</h6>
-                        <p class="mb-5">Petit tour d’horizon des questions pratiques les plus fréquentes.</p>
-                    </div>
-                </div>
-                <div class="row flex-center">
-                    <div class="col-lg-9">
-                        <div class="accordion" id="accordionExample">
-                            <div class="accordion-item mb-2">
-                                <h2 class="accordion-header" id="heading1">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1"><span class="mb-0 fw-bold text-start fs-1 text-1000">Quelles conditions dois-je respecter pour donner mon sang ?</span></button>
-                                </h2>
-                                <div class="accordion-collapse collapse show" id="collapse1" aria-labelledby="heading1" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body bg-100">Toute personne en bonne santé âgée, de 18 à 70 ans et pesant au moins 50 kilos, peut donner son sang. Néanmoins, il existe des contre-indications qui, pour la plupart, sont temporaires. Leur but : garantir la sécurité du donneur comme du receveur.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item mb-2">
-                                <h2 class="accordion-header" id="heading2">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2"><span class="mb-0 fw-bold text-start fs-1 text-1000">Le don de sang va-t-il me fatiguer ?</span></button>
-                                </h2>
-                                <div class="accordion-collapse collapse" id="collapse2" aria-labelledby="heading2" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body bg-100">Chez une personne en bonne santé, le don n’entraîne la plupart du temps aucun effet secondaire. L'organisme reconstitue rapidement le volume sanguin prélevé.
-                                        Il est néanmoins conseillé de ne pas pratiquer d’activités fatigantes ou à risques (conduite prolongée, marche ou station debout prolongée, sports…) dans les heures qui suivent le don. Il est également très important de boire beaucoup (eau ou jus).</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item mb-2">
-                                <h2 class="accordion-header" id="heading3">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3"><span class="mb-0 fw-bold text-start fs-1 text-1000">Combien de temps dure un don de sang ?</span></button>
-                                </h2>
-                                <div class="accordion-collapse collapse" id="collapse3" aria-labelledby="heading3" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body bg-100">Le prélèvement en lui-même ne dure que 8 à 10 minutes. Si l'on ajoute à cela le temps nécessaire à l'entretien préalable avec l’infirmier(e) ou le médecin, ainsi que le repos suivant le prélèvement, un don de sang prend environ 45 minutes.</div>
-                                </div>
-                            </div>
-                            <div class="accordion-item mb-2">
-                                <h2 class="accordion-header" id="heading4">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4"><span class="mb-0 fw-bold text-start fs-1 text-1000">Est-ce que donner son sang fait mal ?</span></button>
-                                </h2>
-                                <div class="accordion-collapse collapse" id="collapse4" aria-labelledby="heading4" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body bg-100">Personne n’aime les piqûres mais le don de sang ne fait pas plus mal qu’une prise de sang réalisée en laboratoire. Le prélèvement est réalisé par un personnel qualifié, spécialement formé et qui veille à votre bien-être.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item mb-2">
-                                <h2 class="accordion-header" id="heading5">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5"><span class="mb-0 fw-bold text-start fs-1 text-1000">Quels documents dois-je apporter pour effectuer un don de sang ?</span></button>
-                                </h2>
-                                <div class="accordion-collapse collapse" id="collapse5" aria-labelledby="heading5" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body bg-100">La législation impose la présentation systématique d’une pièce d’identité pour chaque personne se présentant sur une collecte pour donner son sang. Le carnet de santé est facultatif.
-                                        Pour les donneurs réguliers, la carte de donneur est acceptée, ainsi qu’une carte de transport ou une carte vitale.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end of .container-->
-
-        </section>
-        <!-- <section> close ============================-->
-        <!-- ============================================-->
-
-
-        <!-- ============================================-->
-        <!-- <section> begin ============================-->
         <section class="py-8 bg-1000">
 
             <div class="container">
