@@ -22,8 +22,10 @@
 
 
 <body>
-
-    @yield("Content")
+    <main class="main" id="top">
+        @include("components.navbar")
+        @yield("Content")
+    </main>
 
 <script src="{{ asset("vendors/@popperjs/popper.min.js") }}"></script>
 <script src="{{ asset("vendors/bootstrap/bootstrap.min.js") }}"></script>
