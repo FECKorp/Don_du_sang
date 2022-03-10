@@ -8,10 +8,10 @@
 
             <div class="container position-relative">
                 <div class="row align-items-center py-8">
-                    <div class="col-md-5 col-lg-6 order-md-1 text-center text-md-end"><img class="img-fluid" src="assets/img/illustrations/mobile.png" width="350" alt="" /></div>
-                    <div class="col-md-7 col-lg-6 text-center text-md-start"><span class="badge bg-light rounded-pill text-dark align-items-center d-flex flex-row-reverse justify-content-end mx-auto mx-md-0 ps-0 w-75 w-sm-50 w-md-75 w-xl-50 mb-3">#1 Editiors Choice App of 2020<img class="img-fluid float-start me-3" src="assets/img/illustrations/arrow-right.png" alt=""/></span>
-                        <h1 class="mb-4 display-3 fw-bold lh-sm">Best app for your <br class="d-block d-lg-none d-xl-block" />modern lifestyle</h1>
-                        <p class="mt-3 mb-4 fs-1">Increase productivity with a simple to-do app. app for <br class="d-none d-lg-block" />managing your personal budgets.</p><a class="btn btn-lg btn-primary rounded-pill hover-top" href="#" role="button">Try for free</a><a class="btn btn-link ps-md-4" href="#" role="button"> Watch demo video</a>
+                    <div class="col-md-5 col-lg-6 order-md-1 text-center text-md-end"><img class="img-fluid" src="assets/img/Life.png" width="1700px" alt="" /></div>
+                    <div class="col-md-7 col-lg-6 text-center text-md-start">
+                        <h1 class="mb-4 display-3 fw-bold lh-sm">Donnez son sang <br class="d-block d-lg-none d-xl-block" />et votre moelle osseuse </h1>
+                        <p class="mt-3 mb-4 fs-1">Grace aux dons du sang <br class="d-none d-lg-block" />1 MILLIONS de personnes sont sauvées par an</p><a class="btn btn-lg btn-primary rounded-pill hover-top" href="#" role="button">Prendre Rendez-vous</a><a class="btn btn-link ps-md-4" href="#" role="button"> Voir les centres de don</a>
                     </div>
                 </div>
             </div>
@@ -21,59 +21,57 @@
                 <div class="row align-items-center">
                     <div class="col-md-7 col-lg-6 px-sm-5 px-md-0">
                         <h6 class="fw-bold fs-4 display-3 lh-sm">Donner son <br />sang</h6>
-                        <p class="my-4">Increase productivity with a simple to-do app. app for <br class="d-none d-xl-block" />managing your personal budgets.</p>
+                        <p class="my-4">Avec 1 don du sang vous sauvez 3 personnes. </p>
                         <div class="d-flex align-items-center mb-5">
-                            <div><img class="img-fluid" src="assets/img/illustrations/fast-performance.png" width="90" alt="" /></div>
                             <div class="px-4">
-                                <h5 class="fw-bold text-danger">Fast performance</h5>
-                                <p>Get your blood tests delivered at <br class="d-none d-xl-block"> home collect a sample from the <br class="d-none d-xl-block"> news your blood tests</p>
+                                <h5 class="fw-bold text-danger">Don du sang</h5>
+                                <p>Les personnes subissant des opérations chirurgicales, des traitements lourds (chimiothérapie), les victimes d’hémorragies, d’accidents, les femmes qui ont eu un accouchement difficile, sont sauvées grâce à vos globules rouges. Dans le cas de maladies du sang comme la drépanocytose, les patients reçoivent des transfusions de globules rouges très régulièrement. Toutes les 5 semaines, voire toutes les 2 ou 3 semaines.</p>
                             </div>
                         </div>
                         <div class="d-flex align-items-center mb-5">
-                            <div><img class="img-fluid" src="assets/img/illustrations/prototype.png" width="90" alt="" /></div>
                             <div class="px-4">
-                                <h5 class="fw-bold text-primary">Prototyping</h5>
-                                <p>Get your blood tests delivered at <br class="d-none d-xl-block"> home collect a sample from the <br class="d-none d-xl-block"> news your blood tests</p>
+                                <h5 class="fw-bold text-primary">Don des plaquettes</h5>
+                                Les personnes atteintes de cancers (leucémies, lymphomes) sont soignées avec des plaquettes.
+                                <p>La transfusion de ce produit sanguin est aussi nécessaire en cas d’hémorragie massive. Elle est alors associée aux transfusions de globules rouges et de plasma. </p>
                             </div>
                         </div>
                         <div class="d-flex align-items-center mb-5">
-                            <div><img class="img-fluid" src="assets/img/illustrations/vector.png" width="90" alt="" /></div>
                             <div class="px-4">
-                                <h5 class="fw-bold text-success">Vector Editing</h5>
-                                <p>Get your blood tests delivered at <br class="d-none d-xl-block"> home collect a sample from the <br class="d-none d-xl-block"> news your blood tests</p>
+                                <h5 class="fw-bold text-success">Don du plasma</h5>
+                                <p>Les enfants et adultes atteints de déficits immunitaires, de maladies génétiques comme l’hémophilie par exemple, bénéficient de transfusions de plasma.
+
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 col-lg-6 order-md-0 text-center text-md-start"><img class="img-fluid" src="assets/img/illustrations/feature-bg.png" width="550" alt="" /></div>
+                    <div class="col-md-5 col-lg-6 order-md-0 text-center text-md-start"><img class="img-fluid" src="assets/img/sang.png" style="padding-left: 60px" width="400" alt="" /></div>
                 </div>
             </div>
         </section>
         <section class="py-5" id="features">
             <div class="container-lg">
                 <div class="row align-items-center">
-                    <div class="col-md-5 col-lg-6 order-md-0 text-center text-md-start"><img class="img-fluid" src="assets/img/illustrations/feature-bg.png" width="550" alt="" /></div>
+                    <div class="col-md-5 col-lg-6 order-md-0 text-center text-md-start"><img class="img-fluid" src="assets/img/Os.png" width="550" alt="" /></div>
                     <div class="col-md-7 col-lg-6 px-sm-5 px-md-0">
-                        <h6 class="fw-bold fs-4 display-3 lh-sm">Donner sa <br />moelle osseuse</h6>
-                        <p class="my-4">Increase productivity with a simple to-do app. app for <br class="d-none d-xl-block" />managing your personal budgets.</p>
+                        <h2 class="fw-bold fs-4 display-3 lh-sm">Donner sa <br />moelle osseuse</h2>
+                        <p class="my-4"> La greffe de moelle osseuse représente un espoir de guérison pour de nombreuses personnes malades.
+
+                        </p>
                         <div class="d-flex align-items-center mb-5">
-                            <div><img class="img-fluid" src="assets/img/illustrations/fast-performance.png" width="90" alt="" /></div>
                             <div class="px-4">
-                                <h5 class="fw-bold text-danger">Fast performance</h5>
-                                <p>Get your blood tests delivered at <br class="d-none d-xl-block"> home collect a sample from the <br class="d-none d-xl-block"> news your blood tests</p>
+                                <h5 class="fw-bold text-danger">Sauvez des vies</h5>
+                                <p>Elle permet de traiter 80% des maladies graves du sang, comme les cancers de type leucémies, lymphomes ou l’aplasie médullaire.</p>
                             </div>
                         </div>
                         <div class="d-flex align-items-center mb-5">
-                            <div><img class="img-fluid" src="assets/img/illustrations/prototype.png" width="90" alt="" /></div>
                             <div class="px-4">
-                                <h5 class="fw-bold text-primary">Prototyping</h5>
-                                <p>Get your blood tests delivered at <br class="d-none d-xl-block"> home collect a sample from the <br class="d-none d-xl-block"> news your blood tests</p>
+                                <h5 class="fw-bold text-primary">Les donneurs sont rares</h5>
+                                <p>Compte tenu de la difficulté de trouver un donneur compatible en dehors de la famille, tout nouveau donneur inscrit sur le registre national apporte une chance supplémentaire de guérison à un patient.</p>
                             </div>
                         </div>
                         <div class="d-flex align-items-center mb-5">
-                            <div><img class="img-fluid" src="assets/img/illustrations/vector.png" width="90" alt="" /></div>
                             <div class="px-4">
-                                <h5 class="fw-bold text-success">Vector Editing</h5>
-                                <p>Get your blood tests delivered at <br class="d-none d-xl-block"> home collect a sample from the <br class="d-none d-xl-block"> news your blood tests</p>
+                                <h5 class="fw-bold text-success">L’EFS et l’agence de biomédecine comptent sur vous !</h5>
                             </div>
                         </div>
                     </div>
@@ -116,9 +114,11 @@
                     </div>
                 </div>
             </div>
+            <h6 class="fw-bold fs-4 display-3 lh-sm mb-3"style="text-align: center">Nos centres de don</h6>
+            <iframe src="https://arcg.is/y5qze" style="width: 1100px; height: 500px" ></iframe>
+
         </div>
         </div>
-        <iframe src="https://arcg.is/y5qze" width="1000" height="450" style="border:0" allowfullscreen></iframe>
 
         <section class="py-8" id="faq">
             <div class="container">
@@ -170,8 +170,11 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5"><span class="mb-0 fw-bold text-start fs-1 text-1000">Quels documents dois-je apporter pour effectuer un don de sang ?</span></button>
                                 </h2>
                                 <div class="accordion-collapse collapse" id="collapse5" aria-labelledby="heading5" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body bg-100">La législation impose la présentation systématique d’une pièce d’identité pour chaque personne se présentant sur une collecte pour donner son sang. Le carnet de santé est facultatif.
+                                    <div class="accordion-body bg-100 " >La législation impose la présentation systématique d’une pièce d’identité pour chaque personne se présentant sur une collecte pour donner son sang. Le carnet de santé est facultatif.
                                         Pour les donneurs réguliers, la carte de donneur est acceptée, ainsi qu’une carte de transport ou une carte vitale.</div>
+                                </div>
+                                <div style="margin-bottom: 100px">
+
                                 </div>
                             </div>
                         </div>
@@ -180,168 +183,9 @@
             </div>
             <!-- end of .container-->
 
-        </section>
-
-        <!-- ============================================-->
-        <!-- <section> begin ============================-->
-        <section class="py-5">
-
-            <div class="container">
-                <div class="row align-items-center mb-6">
-                    <div class="col-md-5 col-lg-4 offset-lg-1">
-                        <h1 class="fw-bold lh-base">Smart jackpots that you may love this anytime &amp; anywhere</h1>
-                    </div>
-                    <div class="col-md-6 col-lg-5 offset-lg-1 border-start py-5 ps-5">
-                        <p class="mb-0">The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-lg-3 offset-lg-1 mb-4">
-                        <div class="py-4"><img class="img-fluid" src="assets/img/illustrations/automatic.png" width="90" alt="" /></div>
-                        <h5 class="fw-bold text-danger">Fast performance</h5>
-                        <p class="mt-2 mb-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
-                    </div>
-                    <div class="col-md-4 col-lg-3 offset-lg-1 mb-4">
-                        <div class="py-4"><img class="img-fluid" src="assets/img/illustrations/network.png" width="90" alt="" /></div>
-                        <h5 class="fw-bold text-primary">Prototyping</h5>
-                        <p class="mt-2 mb-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
-                    </div>
-                    <div class="col-md-4 col-lg-3 offset-lg-1 mb-4">
-                        <div class="py-4"><img class="img-fluid" src="assets/img/illustrations/rewards.png" width="90" alt="" /></div>
-                        <h5 class="fw-bold text-success">Vector Editing</h5>
-                        <p class="mt-2 mb-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- end of .container-->
-
-        </section>
-        <section class="py-6">
-
-            <div class="container">
-                <div class="row justify-content-center mb-6">
-                    <div class="col-lg-6 text-center mx-auto mb-3 mb-md-5 mt-4">
-                        <h6 class="fw-bold fs-4 display-3 lh-sm">Why you should choose <br />our app </h6>
-                        <p class="mb-0">The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 mb-6">
-                        <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="assets/img/illustrations/app.png" width="90" alt="" />
-                            <h5 class="fw-bold">App Development</h5>
-                            <p class="mb-md-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-6">
-                        <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="assets/img/illustrations/time-award.png" width="90" alt="" />
-                            <h5 class="fw-bold">10 Times Award</h5>
-                            <p class="mb-md-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-6">
-                        <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="assets/img/illustrations/cloud.png" width="90" alt="" />
-                            <h5 class="fw-bold">Cloud Storage</h5>
-                            <p class="mb-md-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-6">
-                        <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="assets/img/illustrations/customization.png" width="90" alt="" />
-                            <h5 class="fw-bold">Customization</h5>
-                            <p class="mb-md-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-6">
-                        <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="assets/img/illustrations/ux.png" width="90" alt="" />
-                            <h5 class="fw-bold">UX Planning</h5>
-                            <p class="mb-md-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-6">
-                        <div class="text-center px-lg-3"><img class="img-fluid mb-3" src="assets/img/illustrations/support.png" width="90" alt="" />
-                            <h5 class="fw-bold">Customer Support</h5>
-                            <p class="mb-md-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end of .container-->
-
-        </section>
-        <!-- <section> close ============================-->
-        <!-- ============================================-->
 
 
 
-
-        <!-- ============================================-->
-        <!-- <section> begin ============================-->
-        <section class="py-6">
-
-            <div class="container">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-5 order-md-1 text-center text-md-start"><img class="img-fluid mb-4" src="assets/img/illustrations/ultimate-feature.png" alt="" /></div>
-                        <div class="col-md-6 text-center text-md-start">
-                            <h6 class="fw-bold fs-4 display-3 lh-sm">Ultimate features<br />that we built</h6>
-                            <p class="my-4 pe-xl-5"> The rise of mobile devices transforms the way we consume information entirely.</p>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="mb-4">
-                                        <div class="py-4"><img class="img-fluid" src="assets/img/illustrations/app.png" width="90" alt="" /></div>
-                                        <h5 class="fw-bold text-undefined">App Development</h5>
-                                        <p class="mt-2 mb-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="mb-4">
-                                        <div class="py-4"><img class="img-fluid" src="assets/img/illustrations/ux.png" width="90" alt="" /></div>
-                                        <h5 class="fw-bold text-undefined">UX Planning</h5>
-                                        <p class="mt-2 mb-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="mb-4">
-                                        <div class="py-4"><img class="img-fluid" src="assets/img/illustrations/cloud.png" width="90" alt="" /></div>
-                                        <h5 class="fw-bold text-undefined">Cloud Storage</h5>
-                                        <p class="mt-2 mb-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="mb-4">
-                                        <div class="py-4"><img class="img-fluid" src="assets/img/illustrations/support.png" width="90" alt="" /></div>
-                                        <h5 class="fw-bold text-undefined">Customer support</h5>
-                                        <p class="mt-2 mb-0">Get your blood tests delivered at home collect a sample from the news your blood tests.</p>
-                                    </div>
-                                </div>
-                            </div><a class="btn btn-lg btn-primary rounded-pill hover-top" href="#" role="button">See all</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end of .container-->
-
-        </section>
-        <!-- <section> close ============================-->
-        <!-- ============================================-->
-
-
-
-
-        <!-- ============================================-->
-        <!-- <section> begin ============================-->
-        <section class="py-8" id="pricing">
-
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-8 col-lg-6 col-xxl-5 text-center mb-3">
-                        <h6 class="fw-bold fs-4 display-3 lh-sm mb-3">Get awesome features, without extra charges</h6>
-                        <p class="mb-4">The rise of mobile devices transforms the way we consume information entirely and the world's most elevant channels such as Facebook.</p>
-                    </div>
-                </div>
-
-            <!-- end of .container-->
-
-        </section>
         <section class="py-8 bg-1000">
 
             <div class="container">
