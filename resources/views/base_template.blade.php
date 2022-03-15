@@ -1,26 +1,28 @@
 @extends("template")
 @section("Content")
 
+    <main class="main" id="top">
+        @include("components.navbar")
         <section class="py-0" id="home">
-            <div class="bg-holder" style="background-image:url(assets/img/illustrations/hero-bg.png);background-position:bottom;background-size:cover;">
+            <div class="bg-holder" style="background-image:url({{ asset("assets/img/illustrations/hero-bg.png") }});background-position:bottom;background-size:cover;">
             </div>
             <!--/.bg-holder-->
 
             <div class="container position-relative">
                 <div class="row align-items-center py-8">
-                    <div class="col-md-5 col-lg-6 order-md-1 text-center text-md-end"><img class="img-fluid" src="assets/img/Life.png" width="1700px" alt="" /></div>
+                    <div class="col-md-5 col-lg-6 order-md-1 text-center text-md-end"><img class="img-fluid" src="{{ asset("assets/img/Life.png") }}" width="1700px" alt="" /></div>
                     <div class="col-md-7 col-lg-6 text-center text-md-start">
                         <h1 class="mb-4 display-3 fw-bold lh-sm">Donnez son sang <br class="d-block d-lg-none d-xl-block" />et votre moelle osseuse </h1>
-                        <p class="mt-3 mb-4 fs-1">Grace aux dons du sang <br class="d-none d-lg-block" />1 MILLIONS de personnes sont sauvées par an</p><a class="btn btn-lg btn-primary rounded-pill hover-top" href="#" role="button">Prendre Rendez-vous</a><a class="btn btn-link ps-md-4" href="#" role="button"> Voir les centres de don</a>
+                        <p class="mt-3 mb-4 fs-1">Grace aux dons du sang <br class="d-none d-lg-block" />1 MILLIONS de personnes sont sauvées par an</p><a class="btn btn-lg btn-primary rounded-pill hover-top" href="#" role="button">Prendre Rendez-vous</a><a class="btn btn-link ps-md-4" href="#centresdedons" role="button"> Voir les centres de don</a>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="py-5" id="features">
+        <section class="py-5" >
             <div class="container-lg">
                 <div class="row align-items-center">
                     <div class="col-md-7 col-lg-6 px-sm-5 px-md-0">
-                        <h6 class="fw-bold fs-4 display-3 lh-sm">Donner son <br />sang</h6>
+                        <h6 class="fw-bold fs-4 display-3 lh-sm" id="dondusang">Donner son <br />sang</h6>
                         <p class="my-4">Avec 1 don du sang vous sauvez 3 personnes. </p>
                         <div class="d-flex align-items-center mb-5">
                             <div class="px-4">
@@ -44,16 +46,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 col-lg-6 order-md-0 text-center text-md-start"><img class="img-fluid" src="assets/img/sang.png" style="padding-left: 60px" width="400" alt="" /></div>
+                    <div class="col-md-5 col-lg-6 order-md-0 text-center text-md-start"><img class="img-fluid"src="{{ asset("assets/img/sang.png") }}"/></div>
                 </div>
             </div>
         </section>
-        <section class="py-5" id="features">
+        <section class="py-5" >
             <div class="container-lg">
                 <div class="row align-items-center">
                     <div class="col-md-5 col-lg-6 order-md-0 text-center text-md-start"><img class="img-fluid" src="assets/img/Os.png" width="550" alt="" /></div>
                     <div class="col-md-7 col-lg-6 px-sm-5 px-md-0">
-                        <h2 class="fw-bold fs-4 display-3 lh-sm">Donner sa <br />moelle osseuse</h2>
+                        <h2 class="fw-bold fs-4 display-3 lh-sm" id="donmoelle">Donner sa <br />moelle osseuse</h2>
                         <p class="my-4"> La greffe de moelle osseuse représente un espoir de guérison pour de nombreuses personnes malades.
 
                         </p>
@@ -84,14 +86,14 @@
                     <div class="card-header border-bottom-0 pt-7 pb-5">
                         <div class="d-flex justify-content-center">
                         </div>
-                        <h4 class="fw-bold text-center">Don du sang</h4><span class="text-700 text-center d-block">p</span>
+                        <h4 class="fw-bold text-center">Don du sang</h4><span class="text-700 text-center d-block"></span>
                     </div>
                     <div class="card-body mx-auto">
                         <ul class="list-unstyled mb-4">
-                            <li class="text-700 py-2 text-secondary" style="text-align: center">Darg &amp; Drop Builder</li>
-                            <li class="text-700 py-2 text-secondary" style="text-align: center">1,000's of Templates</li>
-                            <li class="text-700 py-2 text-secondary" style="text-align: center">Blog Support Tools</li>
-                            <li class="text-700 py-2 text-secondary"style="text-align: center">eCommerce Store </li>
+                            <li class="text-700 py-2 text-secondary" style="text-align: center">Sauvez des vies</li>
+                            <li class="text-700 py-2 text-secondary" style="text-align: center">1 562 086 donneurs en 2020 </li>
+                            <li class="text-700 py-2 text-secondary" style="text-align: center">18 ans minimum</li>
+                            <li class="text-700 py-2 text-secondary"style="text-align: center">Carte d'identité obligatoire </li>
                         </ul>
                         <div class="d-flex flex-column"> <a class="btn btn-lg btn-primary rounded-pill mb-3" href="#">Prendre Rendez-vous</a></div>
                     </div>
@@ -101,30 +103,31 @@
                 <div class="card shadow-lg mb-4">
                     <div class="card-header border-bottom-0 pt-7 pb-5">
                         <div class="d-flex justify-content-center"></div>
-                        <h4 class="fw-bold text-center">Don de la moelle osseuse</h4><span class="text-700 text-center d-block">p</span>
+                        <h4 class="fw-bold text-center">Don de la moelle osseuse</h4><span class="text-700 text-center d-block"></span>
                     </div>
                     <div class="card-body mx-auto">
                         <ul class="list-unstyled mb-4">
-                            <li class="text-700 py-2 text-secondary"style="text-align: center">Darg &amp; Drop Builder</li>
-                            <li class="text-700 py-2 text-secondary"style="text-align: center">1,000's of Templates</li>
-                            <li class="text-700 py-2 text-secondary"style="text-align: center">Blog Support Tools</li>
-                            <li class="text-700 py-2 text-secondary"style="text-align: center">eCommerce Store </li>
+                            <li class="text-700 py-2 text-secondary"style="text-align: center">Sauvez des vies</li>
+                            <li class="text-700 py-2 text-secondary"style="text-align: center">20 000 Donneurs par an</li>
+                            <li class="text-700 py-2 text-secondary"style="text-align: center">18 ans minimum</li>
+                            <li class="text-700 py-2 text-secondary"style="text-align: center">Carte d'identité obligatoire </li>
                         </ul>
                         <div class="d-flex flex-column"> <a class="btn btn-lg btn-primary rounded-pill mb-3" href="#">Prendre rendez-vous</a></div>
                     </div>
                 </div>
             </div>
-            <h6 class="fw-bold fs-4 display-3 lh-sm mb-3"style="text-align: center">Nos centres de don</h6>
+
+            <h6 class="fw-bold fs-4 display-3 lh-sm mb-3"id="centresdedons"style="text-align: center">Nos centres de don</h6>
             <iframe src="https://arcg.is/y5qze" style="width: 1100px; height: 500px" ></iframe>
 
         </div>
         </div>
 
-        <section class="py-8" id="faq">
+        <section class="py-8" >
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-8 col-lg-6 text-center mb-3">
-                        <h6 class="fw-bold fs-4 display-3 lh-sm mb-3">Foire aux questions</h6>
+                        <h6 class="fw-bold fs-4 display-3 lh-sm mb-3" id="faq">Foire aux questions</h6>
                         <p class="mb-5">Petit tour d’horizon des questions pratiques les plus fréquentes.</p>
                     </div>
                 </div>
@@ -181,68 +184,9 @@
                     </div>
                 </div>
             </div>
-            <!-- end of .container-->
+            @include("components.footer")
 
-
-
-
-        <section class="py-8 bg-1000">
-
-            <div class="container">
-                <div class="row flex-center">
-                    <div class="col-auto mb-5"><a class="pe-2 d-flex align-items-center text-decoration-none fw-bold fs-3" href="#">
-                            <div class="text-warning">App</div>
-                            <div class="text-white">Lab</div>
-                        </a></div>
-                </div>
-                <div class="row flex-center">
-                    <div class="col-auto mb-5">
-                        <ul class="list-unstyled list-inline mb-0">
-                            <li class="list-inline-item me3 me-sm-4"><a class="text-light text-decoration-none" href="#!">Home</a></li>
-                            <li class="list-inline-item me3 me-sm-4"><a class="text-light text-decoration-none" href="#!">Key Features</a></li>
-                            <li class="list-inline-item me3 me-sm-4"><a class="text-light text-decoration-none" href="#!">Pricing</a></li>
-                            <li class="list-inline-item me3 me-sm-4"><a class="text-light text-decoration-none" href="#!">Testimonial</a></li>
-                            <li class="list-inline-item me3 me-sm-4"><a class="text-light text-decoration-none" href="#!">FAQ</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row flex-center">
-                    <div class="col-auto mb-5">
-                        <ul class="list-unstyled list-inline">
-                            <li class="list-inline-item me-3"><a class="text-decoration-none" href="#!">
-                                    <svg class="bi bi-facebook" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#7D7987" viewBox="0 0 16 16">
-                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
-                                    </svg></a></li>
-                            <li class="list-inline-item me-3"><a href="#!">
-                                    <svg class="bi bi-twitter" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#7D7987" viewBox="0 0 16 16">
-                                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path>
-                                    </svg></a></li>
-                            <li class="list-inline-item me-3"><a href="#!">
-                                    <svg class="bi bi-hash" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#ffffff" viewBox="0 0 16 16">
-                                        <path d="M8.39 12.648a1.32 1.32 0 0 0-.015.18c0 .305.21.508.5.508.266 0 .492-.172.555-.477l.554-2.703h1.204c.421 0 .617-.234.617-.547 0-.312-.188-.53-.617-.53h-.985l.516-2.524h1.265c.43 0 .618-.227.618-.547 0-.313-.188-.524-.618-.524h-1.046l.476-2.304a1.06 1.06 0 0 0 .016-.164.51.51 0 0 0-.516-.516.54.54 0 0 0-.539.43l-.523 2.554H7.617l.477-2.304c.008-.04.015-.118.015-.164a.512.512 0 0 0-.523-.516.539.539 0 0 0-.531.43L6.53 5.484H5.414c-.43 0-.617.22-.617.532 0 .312.187.539.617.539h.906l-.515 2.523H4.609c-.421 0-.609.219-.609.531 0 .313.188.547.61.547h.976l-.516 2.492c-.008.04-.015.125-.015.18 0 .305.21.508.5.508.265 0 .492-.172.554-.477l.555-2.703h2.242l-.515 2.492zm-1-6.109h2.266l-.515 2.563H6.859l.532-2.563z"></path>
-                                    </svg></a></li>
-                            <li class="list-inline-item me-3"><a href="#!">
-                                    <svg class="bi bi-instagram" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#7D7987" viewBox="0 0 16 16">
-                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"> </path>
-                                    </svg></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row flex-center">
-                    <div class="col-auto">
-                        <p class="mb-0 fs--1 text-700">&copy; This template is made with&nbsp;
-                            <svg class="bi bi-suit-heart-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" viewBox="0 0 16 16">
-                                <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"></path>
-                            </svg>&nbsp;by&nbsp;<a class="text-700" href="https://themewagon.com/" target="_blank">ThemeWagon </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- end of .container-->
-
-        </section>
-
-
+    </main>
 
 
 
