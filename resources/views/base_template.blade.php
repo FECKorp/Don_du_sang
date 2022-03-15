@@ -2,7 +2,7 @@
 @section("Content")
 
         <section class="py-0" id="home">
-            <div class="bg-holder" style="background-image:url(assets/img/illustrations/hero-bg.png);background-position:bottom;background-size:cover;">
+            <div class="bg-holder" style="background-image:url({{ asset("assets/img/illustrations/hero-bg.png") }});background-position:bottom;background-size:cover;">
             </div>
             <!--/.bg-holder-->
 
@@ -239,7 +239,6 @@
                 </div>
             </div>
             <!-- end of .container-->
-
         </section>
 
 
