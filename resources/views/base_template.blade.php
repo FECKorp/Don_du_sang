@@ -2,7 +2,7 @@
 @section("Content")
 
         <section class="py-0" id="home">
-            <div class="bg-holder" style="background-image:url(assets/img/illustrations/hero-bg.png);background-position:bottom;background-size:cover;">
+            <div class="bg-holder" style="background-image:url({{ asset("assets/img/illustrations/hero-bg.png") }});background-position:bottom;background-size:cover;">
             </div>
             <!--/.bg-holder-->
 
@@ -117,7 +117,7 @@
                 </div>
             </div>
         </div>
-        </div>
+
         <iframe src="https://arcg.is/y5qze" width="1000" height="450" style="border:0" allowfullscreen></iframe>
 
         <section class="py-8" id="faq">
@@ -178,12 +178,8 @@
                     </div>
                 </div>
             </div>
-            <!-- end of .container-->
-
         </section>
 
-        <!-- ============================================-->
-        <!-- <section> begin ============================-->
         <section class="py-5">
 
             <div class="container">
@@ -213,11 +209,9 @@
                     </div>
                 </div>
             </div>
-            <!-- end of .container-->
-
         </section>
-        <section class="py-6">
 
+        <section class="py-6">
             <div class="container">
                 <div class="row justify-content-center mb-6">
                     <div class="col-lg-6 text-center mx-auto mb-3 mb-md-5 mt-4">
@@ -264,19 +258,9 @@
                     </div>
                 </div>
             </div>
-            <!-- end of .container-->
-
         </section>
-        <!-- <section> close ============================-->
-        <!-- ============================================-->
 
-
-
-
-        <!-- ============================================-->
-        <!-- <section> begin ============================-->
         <section class="py-6">
-
             <div class="container">
                 <div class="container">
                     <div class="row align-items-center">
@@ -318,14 +302,7 @@
                     </div>
                 </div>
             </div>
-            <!-- end of .container-->
-
         </section>
-        <!-- <section> close ============================-->
-        <!-- ============================================-->
-
-
-
 
         <!-- ============================================-->
         <!-- <section> begin ============================-->
@@ -395,7 +372,6 @@
                 </div>
             </div>
             <!-- end of .container-->
-
         </section>
 
 
