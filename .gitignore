@@ -18,3 +18,9 @@ Homestead.json
 .phpunit.result.cache
 
 .idea/
+
+public/dashboard/bootstrap/.DS_Store
+
+public/dashboard/.DS_Store
+
+public/dashboard/bootstrap/dist/.DS_Store
