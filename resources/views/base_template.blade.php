@@ -13,16 +13,56 @@
                     <div class="col-md-7 col-lg-6 text-center text-md-start">
                         <h1 class="mb-4 display-3 fw-bold lh-sm">Donnez son sang <br class="d-block d-lg-none d-xl-block" />et votre moelle osseuse </h1>
                         <p class="mt-3 mb-4 fs-1">Grace aux dons du sang <br class="d-none d-lg-block" />1 MILLIONS de personnes sont sauvées par an</p><a class="btn btn-lg btn-primary rounded-pill hover-top" href="#" role="button">Prendre Rendez-vous</a><a class="btn btn-link ps-md-4" href="#centresdedons" role="button"> Voir les centres de don</a>
+                        <br><br><br>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="py-5" >
+        <section class="" >
             <div class="container-lg">
                 <div class="row align-items-center">
+                    <p style="text-align: center;color: black; font-size: 4.5rem" class="" id="dondusang">Donner son sang</p>
+                    <div class="counter-container">
+                        <div class="counter">
+                            <img src="{{ asset("assets/img/coeur.png") }}" style="height: 128px; width: 128px" alt="timer" srcset="" class="icon">
+                            <h3 data-target="1000000" class="count">0</h3>
+                            <p>De personnes sauvées en 2020</p>
+                        </div>
+                        <div class="counter">
+                            <img src="{{ asset("assets/img/blood.png") }}"style="height: 128px; width: 128px" alt="Coffee" srcset="" class="icon">
+                            <h3 data-target="10000" class="count">0</h3>
+                            <p>dons de sang sont nécessaires / jour.</p>
+                        </div>
+
+                                </div>
+                            <script>
+                                const counters = document.querySelectorAll(".count");
+                                const speed = 200;
+
+                                counters.forEach((counter) => {
+                                    const updateCount = () => {
+                                        const target = parseInt(+counter.getAttribute("data-target"));
+                                        const count = parseInt(+counter.innerText);
+                                        const increment = Math.trunc(target / speed);
+                                        console.log(increment);
+
+                                        if (count < target) {
+                                            counter.innerText = count + increment;
+                                            setTimeout(updateCount, 1);
+                                        } else {
+                                            count.innerText = target;
+                                        }
+                                    };
+                                    updateCount();
+                                });
+
+                            </script>
+
                     <div class="col-md-7 col-lg-6 px-sm-5 px-md-0">
-                        <h6 class="fw-bold fs-4 display-3 lh-sm" id="dondusang">Donner son <br />sang</h6>
-                        <p class="my-4">Avec 1 don du sang vous sauvez 3 personnes. </p>
+                        <p style="font-size: 2.2rem" class="my-4">Avec <font size="10rem" color="red"> 1 </font>Don du sang, <br>vous sauvez <font size="10rem" color="red"> 3</font> Personnes  </p>
+
                         <div class="d-flex align-items-center mb-5">
                             <div class="px-4">
                                 <h5 class="fw-bold text-danger">Don du sang</h5>
@@ -183,7 +223,8 @@
                     </div>
                 </div>
             </div>
-
+        </section>
+            @include("components.footer")
     </main>
 
 

@@ -18240,7 +18240,20 @@ label {
     margin-bottom: -7.7rem;
   }
 }
+.counter-container {
+    display: flex;
+    justify-content: space-around;
+}
+.counter h3 {
+    padding: 0.5rem 0;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
 
+.counter h6 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
 /*-----------------------------------------------
 |   User Styles
 -----------------------------------------------*/
