@@ -18,6 +18,14 @@ class User extends Authenticatable
     use Notifiable;
     use TwoFactorAuthenticatable;
 
+    public function classe() {
+        return $this->belongsTo(Classe::class);
+    }
+
+    public function estAdmin() {
+        return $this->is_admin == 1;
+    }
+
     /**
      * The attributes that are mass assignable.
      *

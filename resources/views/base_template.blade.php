@@ -6,7 +6,6 @@
         <section class="py-0" id="home">
             <div class="bg-holder" style="background-image:url({{ asset("assets/img/illustrations/hero-bg.png") }});background-position:bottom;background-size:cover;">
             </div>
-            <!--/.bg-holder-->
 
             <div class="container position-relative">
                 <div class="row align-items-center py-8">
@@ -184,7 +183,6 @@
                     </div>
                 </div>
             </div>
-            @include("components.footer")
 
     </main>
 

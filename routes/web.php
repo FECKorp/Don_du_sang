@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\FrontController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,7 +20,20 @@ Route::get('/', [FrontController::class, 'home'])->name("home");
 
 Route::get('/login', [FrontController::class, 'login'])->name("login");
 
+// User Gestion
+Route::delete('/delete-user/{id}', [UserController::class, 'delete'])->name("user-delete");
+
+Route::post('/create-user', [UserController::class, 'createUser'])->name("user-create");
+
+Route::patch("/update-admin", [UserController::class, 'updateAdmin'])->name("user-update-admin");
+
+Route::patch("/update-eleve", [UserController::class, 'updateEleve'])->name("user-update-eleve");
+
+Route::get('/mail-send-password-user', [UserController::class, 'sendPasswordMail'])->name("send-password-mail");
+
 // Dashboard Admin
 Route::get("/dashHome", [DashboardController::class, 'home'])->name("dash-home");
+
+Route::get('/dashUser', [DashboardController::class, 'user_gestion'])->name("dash-user");
 
 Route::get('/dashTemplate', [DashboardController::class, 'template']);

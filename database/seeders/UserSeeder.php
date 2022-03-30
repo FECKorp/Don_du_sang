@@ -12,14 +12,17 @@ class UserSeeder extends Seeder
     {
         DB::table('users')->insert([
             'id' => 1,
-            'name' => "root",
+            'nom' => "root",
+            'prenom' => "root",
             'email' => "root@root.fr",
             'password' => \Hash::make("root"),
+            'is_admin' => 1,
             'created_at' => Carbon::now(),
         ]);
         DB::table('users')->insert([
             'id' => 2,
-            'name' => "user",
+            'nom' => "user",
+            'prenom' => "user",
             'email' => "user@user.fr",
             'password' => \Hash::make("user"),
             'created_at' => Carbon::now(),
