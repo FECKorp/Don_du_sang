@@ -77,6 +77,11 @@
 <script src="{{ asset("dashboard/bootstrap/dist/js/bootstrap.bundle.min.js") }}"></script>
 <script src="{{ asset("dashboard/js/app-style-switcher.js") }}"></script>
 <script src="{{ asset("dashboard/plugins/bower_components/jquery-sparkline/jquery.sparkline.min.js") }}"></script>
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous">
+</script>
 <!--Wave Effects -->
 <script src="{{ asset("dashboard/js/waves.js") }}"></script>
 <!--Menu sidebar -->
@@ -85,13 +90,9 @@
 <script src="{{ asset("dashboard/js/custom.js") }}"></script>
 <!--This page JavaScript -->
 <script src="{{ asset("dashboard/plugins/bower_components/chartist/dist/chartist.min.js") }}"></script>
-<script
-    src="{{ asset("dashboard/plugins/bower_components/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js") }}"></script>
+<script src="{{ asset("dashboard/plugins/bower_components/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js") }}"></script>
+<!-- My Custom Script -->
 <script src="{{ asset("dashboard/js/pages/dashboards/dashboard1.js") }}"></script>
 <script src="{{ asset("dashboard/js/User_Gestion.js") }}"></script>
-<!-- Bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
-        crossorigin="anonymous"></script>
 </body>
 </html>

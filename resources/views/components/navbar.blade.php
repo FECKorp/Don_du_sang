@@ -12,9 +12,15 @@
                 <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium" href="#centresdedons">Centres de dons</a></li>
                 <li class="nav-item" data-anchor="data-anchor"><a class="nav-link fw-medium" href="#faq">FAQ</a></li>
             </ul>
-            <a class="ps-lg-5" href="{{ route("login") }}">
-                <button class="btn btn-lg btn-danger rounded-pill order-0" type="submit">Connexion</button>
-            </a>
+            @unless(Auth::check())
+                <a class="ps-lg-5" href="{{ route("login") }}">
+                    <button class="btn btn-lg btn-danger rounded-pill order-0" type="submit">Connexion</button>
+                </a>
+            @else
+                <a class="ps-lg-5" href="{{ route("dash-home") }}">
+                    <button class="btn btn-lg btn-danger rounded-pill order-0" type="submit">Dashboard</button>
+                </a>
+            @endunless
         </div>
     </div>
 </nav>

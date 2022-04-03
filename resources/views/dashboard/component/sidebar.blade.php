@@ -8,21 +8,19 @@
                 <li class="sidebar-item pt-2">
                     <a
                         class="sidebar-link waves-effect waves-dark sidebar-link"
-                        href="index.html"
-                        aria-expanded="false"
-                    >
+                        href="{{ route("dash-home") }}"
+                        aria-expanded="false">
                         <i class="far fa-clock" aria-hidden="true"></i>
-                        <span class="hide-menu">Dashboard</span>
+                        <span class="hide-menu">Accueil</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
                     <a
                         class="sidebar-link waves-effect waves-dark sidebar-link"
-                        href="profile.html"
-                        aria-expanded="false"
-                    >
+                        href="{{ route("dash-user") }}"
+                        aria-expanded="false">
                         <i class="fa fa-user" aria-hidden="true"></i>
-                        <span class="hide-menu">Profile</span>
+                        <span class="hide-menu">Utilisateurs</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
@@ -76,13 +74,10 @@
                     </a>
                 </li>
                 <li class="text-center p-20 upgrade-btn">
-                    <a
-                        href="https://www.wrappixel.com/templates/ampleadmin/"
-                        class="btn d-grid btn-danger text-white"
-                        target="_blank"
-                    >
-                        Upgrade to Pro</a
-                    >
+                    <form method="POST" action="{{ route("logout") }}">
+                        @csrf
+                        <input type="submit" class="btn btn-danger text-white" value="Se déconnecter">
+                    </form>
                 </li>
             </ul>
         </nav>
