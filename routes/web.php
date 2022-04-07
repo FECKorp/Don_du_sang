@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\FrontController;
+use App\Http\Controllers\ImportUserController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -30,6 +31,8 @@ Route::patch("/update-admin", [UserController::class, 'updateAdmin'])->name("use
 Route::patch("/update-eleve", [UserController::class, 'updateEleve'])->name("user-update-eleve");
 
 Route::get('/mail-send-password-user', [UserController::class, 'sendPasswordMail'])->name("send-password-mail");
+
+Route::post("/import-file", [ImportUserController::class, 'import_file'])->name("import-users-file");
 
 // Dashboard Admin
 Route::get("/dashHome", [DashboardController::class, 'home'])->name("dash-home");
