@@ -12,7 +12,13 @@ class UserController extends Controller
 {
     public function delete(int $id) {
         $user = User::find($id);
-        $user->delete();
+        try {
+            $user->delete();
+            \Session::flash("success", "L'utilisateur a été supprimé avec succès !");
+        }
+        catch (\Exception $e) {
+            \Session::flash("error", "Une erreur a eu lieu, l'utilisateur n'a pas été supprimé !");
+        }
         return redirect()->back();
     }
 

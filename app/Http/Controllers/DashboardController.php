@@ -24,6 +24,11 @@ class DashboardController extends Controller
         return view("dashboard.template");
     }
 
+    public function classes_gestion() {
+        $classes = Classe::all();
+        return view("dashboard.pages.classes_gestion", compact("classes"));
+    }
+
     public function template() {
         return view("dashboard.content_base_template");
     }

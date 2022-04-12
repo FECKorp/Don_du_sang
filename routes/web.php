@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ClassesController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\FrontController;
 use App\Http\Controllers\ImportUserController;
@@ -34,9 +35,19 @@ Route::get('/mail-send-password-user', [UserController::class, 'sendPasswordMail
 
 Route::post("/import-file", [ImportUserController::class, 'import_file'])->name("import-users-file");
 
+// Classe Gestion
+
+Route::post('create-classe', [ClassesController::class, 'create'])->name("classe-create");
+
+Route::delete('/delete-classe/{id}', [ClassesController::class, 'delete'])->name("classe-delete");
+
+Route::patch("/update-classe", [ClassesController::class, 'update'])->name("classe-update");
+
 // Dashboard Admin
 Route::get("/dashHome", [DashboardController::class, 'home'])->name("dash-home");
 
 Route::get('/dashUser', [DashboardController::class, 'user_gestion'])->name("dash-user");
+
+Route::get('/dashClasse', [DashboardController::class, 'classes_gestion'])->name("dash-classe");
 
 Route::get('/dashTemplate', [DashboardController::class, 'template']);
